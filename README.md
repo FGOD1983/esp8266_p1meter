@@ -27,7 +27,7 @@ Compiling up using PlatformIO:
 
 Finishing off:
 - You should now see a new wifi network `ESP******` connect to this wifi network, a popup should appear, else manually navigate to `192.168.4.1`
-- Configure your wifi and Mqtt settings (mqtt hostname = ip of Home Assistant running mqtt broker)
+- Configure your wifi and Mqtt settings (mqtt hostname = ip of Home Assistant running mqtt broker, mqtt port can be checked in the mqtt config of the mqtt integration and user/password of a login of home assistant)
 - To check if everything is up and running you can listen to the MQTT topic `hass/status`, on startup a single message is sent.
 
 ## Connecting to the P1 meter
